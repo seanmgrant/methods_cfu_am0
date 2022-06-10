@@ -6,14 +6,15 @@
 # No arguments are passed; downcase has one clear job which is to lowercase all letters that exist in the String
 # The return value is "hello world"
 "Hello World".downcase
+p "hello world"
 
 # YOU DO the rest:
 
 
-"Hello World".include?("Hello")
+"Hello World".include?("Hello") # this
 
 
-"Hello World".end_with?("Hello")
+"Hello World".end_with?("Hello") # 
 
 
 "Hello World".end_with?("rld")
@@ -23,5 +24,3 @@
 
 
 18.next
-
-
